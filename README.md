@@ -12,6 +12,8 @@ The keys are [simplestyle-spec 1.1.0](https://github.com/mapbox/simplestyle-spec
 
 Open the file and look at the map. If simplestyle is honoured, each pair looks different. If not, all six render the same.
 
+<img width="883" height="552" alt="Screenshot 2026-09-08 at 11 37 12" src="https://github.com/user-attachments/assets/e719ea56-e8c0-404a-9aa5-9be54842f0ba" />
+
 Short version of why: github.com renders GeoJSON with Azure Maps, which doesn't implement simplestyle. Enterprise Server kept the older MapBox renderer, so its [documentation](https://docs.github.com/en/enterprise-server@3.16/repositories/working-with-files/using-files/working-with-non-code-files) still describes the styling properties while the [github.com page](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files) doesn't.
 
 Full write-up: [Why GitHub ignores your GeoJSON styling](https://gerhard.xyz/github-geojson-styling).
