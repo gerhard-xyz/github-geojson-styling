@@ -1,0 +1,100 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "STYLED LINE: thick red, stroke #ff0000, stroke-width 12",
+        "stroke": "#ff0000",
+        "stroke-width": 12,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [174.74, -41.26],
+          [174.79, -41.26],
+          [174.84, -41.26]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CONTROL LINE: no styling properties at all"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [174.74, -41.28],
+          [174.79, -41.28],
+          [174.84, -41.28]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "STYLED POLYGON: green fill #00ff00, blue stroke #0000ff",
+        "stroke": "#0000ff",
+        "stroke-width": 8,
+        "stroke-opacity": 1,
+        "fill": "#00ff00",
+        "fill-opacity": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [174.74, -41.3],
+            [174.78, -41.3],
+            [174.78, -41.32],
+            [174.74, -41.32],
+            [174.74, -41.3]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CONTROL POLYGON: no styling properties at all"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [174.8, -41.3],
+            [174.84, -41.3],
+            [174.84, -41.32],
+            [174.8, -41.32],
+            [174.8, -41.3]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "STYLED POINT: magenta marker-color, large, star symbol",
+        "marker-color": "#ff00ff",
+        "marker-size": "large",
+        "marker-symbol": "star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.76, -41.24]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CONTROL POINT: no styling properties at all"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.82, -41.24]
+      }
+    }
+  ]
+}
